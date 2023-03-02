@@ -134,6 +134,7 @@ p {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  margin: 20px;
   font-size: 75px;
   height: auto;
   padding: 40px;

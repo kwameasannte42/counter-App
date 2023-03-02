@@ -63,6 +63,9 @@ p {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  font-size: 75px;
+  height: auto;
+  padding: 40px;
 }
 
 .button:hover,
@@ -96,6 +99,9 @@ p {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  font-size: 75px;
+  height: auto;
+  padding: 40px;
 }
 
 .button2:hover,
@@ -128,7 +134,9 @@ p {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  margin-left: 20px;
+  font-size: 75px;
+  height: auto;
+  padding: 40px;
 }
 
 .button1:focus:not(:focus-visible):not(.focus-visible) {
@@ -195,6 +203,9 @@ p {
   will-change: transform,opacity;
   z-index: 0;
   margin: 20px;
+  font-size: 75px;
+  height: auto;
+  padding: 40px;
 } 
 
 .reset:hover {
@@ -230,4 +241,8 @@ p {
 
 .reset:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+input[type="text"]{
+  font-size: 40px;
 }
